@@ -148,8 +148,12 @@ For Cypress version 10 and above, you can follow the below code to set up lambda
 ```
 
 Step 3: Execute Test Case
-Once the config is done, now you can execute the Cypress test case on the LambdaTest cloud Platform using the below command  <lambdatest-cypress run>
+Once the config is done, now you can execute the Cypress test case on the LambdaTest cloud Platform using the below command  
 
+
+```
+<lambdatest-cypress run>
+```
 
 
 Updates:
