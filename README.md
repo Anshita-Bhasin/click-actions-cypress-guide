@@ -27,24 +27,26 @@ Custom event triggers
 
 *Prerequisites*
 
-Node.js (version 12 or higher)
-NPM (version 6 or higher)
+Node.js 18.x, 20.x, 22.x and above
 Cypress (version 10 or higher)
 
 Installation
 
-Clone the repository:
+(1) Clone the repository:
 
-git clone 
+[git clone ](https://github.com/Anshita-Bhasin/click-actions-cypress-guide.git)
 
+(2) npm install cypress --save -dev
 
-npm install
+(3) npm install
 
 Open Cypress:
 
 npx cypress open
 
 📁 Project Structure
+
+
 cypress/
 ├── e2e/cypress_click_actions
 │   ├── basic-click.cy.js
@@ -59,17 +61,6 @@ cypress/
 ├── support/
 │   └── commands.js
 └── cypress.config.js
-
-
-1. basic-click.cy.js
-Basic click operations and assertions.
-
-2. click-and-wait.cy.js
-Demonstrates different waiting strategies after click actions.
-
-3. click-on-coordinates.cy.js
-Shows how to click at specific coordinates within elements.
-
 
 
  ## Common Issues and Solutions
