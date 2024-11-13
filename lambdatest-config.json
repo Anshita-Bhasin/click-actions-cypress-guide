@@ -1,7 +1,7 @@
 {
   "lambdatest_auth": {
     "username": "user.name",
-    "access_key": "access.key"
+    "access_key": "<access_key>"
   },
   "browsers": [
     {
@@ -16,9 +16,9 @@
     }
   ],
   "run_settings": {
-    "cypress_config_file": "cypress.json",
+    "config_file": "cypress.config.js",
     "reporter_config_file": "base_reporter_config.json",
-    "build_name": "build-name",
+    "build_name": "Click Action",
     "parallels": 1,
     "specs": "./cypress/e2e/*/basic-click.cy.js",
     "ignore_files": "",
@@ -27,16 +27,5 @@
     "npm_dependencies": {
       "cypress": "13.5.0"
     }
-  },
-
-  "smart_ui": {
-    "project": "Cypress Click Action Testing",
-    "build": "Click Action Test",
-    "baseline": false
-  },
-
-  "tunnel_settings": {
-    "tunnel": false,
-    "tunnel_name": null
   }
 }
