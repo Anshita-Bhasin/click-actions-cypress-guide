@@ -156,6 +156,9 @@ Once the config is done, now you can execute the Cypress test case on the Lambda
 ```
 
 
+<img width="698" alt="image" src="https://github.com/user-attachments/assets/83075afb-fd32-4edb-b7b7-0f0937e7ba56">
+
+
 Updates:
 Cypress Version: 13.15.1
 
