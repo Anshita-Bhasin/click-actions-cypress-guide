@@ -43,9 +43,10 @@ https://github.com/Anshita-Bhasin/click-actions-cypress-guide.git
 
 (3) npm install
 
-Open Cypress:
+(4) npx cypress run
 
-npx cypress open
+![Uploading image.png…]()
+
 
 Project Structure
 
