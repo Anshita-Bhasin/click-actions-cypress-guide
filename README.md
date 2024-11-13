@@ -45,7 +45,14 @@ https://github.com/Anshita-Bhasin/click-actions-cypress-guide.git
 
 (4) npx cypress run
 
+<img width="1558" alt="image" src="https://github.com/user-attachments/assets/7d23f2dd-8376-479b-a721-60538d6af5ce">
+
+
+
 ![Uploading image.png…]()
+
+
+
 
 
 Project Structure
