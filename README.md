@@ -6,18 +6,26 @@ This repository contains comprehensive examples and test cases demonstrating var
 The repository provides detailed examples of:
 
 Basic click operations
+
 Click and wait patterns
+
 Coordinate-based clicks
+
 Position-based clicks
+
 Keyboard-modified clicks
+
 Click options and configurations
+
 Double click operations
+
 Right-click actions
+
 Custom event triggers
 
 ## Getting Started
 
-** Prerequisites **
+*Prerequisites*
 
 Node.js (version 12 or higher)
 NPM (version 6 or higher)
