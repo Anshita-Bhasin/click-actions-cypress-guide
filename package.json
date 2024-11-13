@@ -1,0 +1,15 @@
+{
+  "name": "click-actions-cypress-guide",
+  "version": "1.0.0",
+  "description": "click-actions-cypress-guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anshita Bhasin",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.15.1",
+    "lambdatest-cypress-cli": "^3.0.33"
+  }
+}
