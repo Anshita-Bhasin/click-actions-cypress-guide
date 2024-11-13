@@ -160,5 +160,8 @@ Updates:
 Cypress Version: 13.15.1
 
 
+💭 For Practising different scenarios, checkout LambdaTest Practise Page - https://www.lambdatest.com/selenium-playground?fp_ref=anshita87
+
+💭 Checkout the blogs related to Testing on LambdaTest blogs https://www.lambdatest.com/blog/author/anshitabhasin/
 
 
