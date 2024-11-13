@@ -44,23 +44,9 @@ Open Cypress:
 
 npx cypress open
 
-📁 Project Structure
+Project Structure
 
-
-cypress/
-├── e2e/cypress_click_actions
-│   ├── basic-click.cy.js
-│   ├── click-and-wait.cy.js
-│   ├── click-on-coordinates.cy.js
-│   ├── click-on-position.cy.js
-│   ├── click-with-keyboard.cy.js
-│   ├── click-with-options.cy.js
-│   ├── double-click.cy.js
-│   ├── right-click.cy.js
-│   └── trigger-events.cy.js
-├── support/
-│   └── commands.js
-└── cypress.config.js
+<img width="382" alt="image" src="https://github.com/user-attachments/assets/0eb9e97b-f3f0-449e-9ebf-b38475793601">
 
 
  ## Common Issues and Solutions
@@ -84,6 +70,84 @@ b. Avoid absolute selectors
 (1) Running All Tests
 
 Command : npx cypress run
+
+
+
+## How to use perform click action testing on Cypress Cloud Grid
+
+Using the LambdaTest platform, you can perform regression testing with just one click. Below is the step-by-step instructions on how to execute tests on Cypress Cloud Platform.
+
+Step 1: Install LambdaTest CLI.
+Install LambdaTest CLI using npm, use the below command: 
+```
+<npm install lambdatest-cypress-cli>
+```
+
+Step 2: Set up the config.
+Once the LambdaTest CLI is installed, now we need to set up the configuration using the below command: 
+```
+<lambdatest-cypress init>
+
+```
+After running the command, there will be a file created in your project named “lambdatest-config.json”. We need to set up the configuration in order to run our test case on different browsers on LambdaTest.
+
+For Cypress version 10 and above, you can follow the below code to set up lambdatest-config.json.
+
+```
+
+{
+   "lambdatest_auth": {
+      "username": "user.name",
+      "access_key": "access.key"
+   },
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      },
+      {
+         "browser": "Firefox",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      }
+   ],
+   "run_settings": {
+     "cypress_config_file": "cypress.json",
+     "reporter_config_file": "base_reporter_config.json",
+     "build_name": "build-name",
+     "parallels": 1,
+     "specs": "./cypress/e2e/*/*.cy.js",
+     "ignore_files": "",
+     "network": false,
+     "headless": false,
+     "npm_dependencies": {
+       "cypress": "13.5.0"
+     }
+   },
+
+    "smart_ui": {
+      "project": "Cypress Screenshot Testing",
+      "build": "Screenshot Test",
+      "baseline": false
+    },
+
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnel_name": null
+   }
+}
+
+```
+
+Step 3: Execute Test Case
+Once the config is done, now you can execute the Cypress test case on the LambdaTest cloud Platform using the below command  <lambdatest-cypress run>
+
+
 
 Updates:
 Cypress Version: 13.15.1
