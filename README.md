@@ -36,6 +36,9 @@ Installation
 
 [git clone ](https://github.com/Anshita-Bhasin/click-actions-cypress-guide.git)
 
+https://github.com/Anshita-Bhasin/click-actions-cypress-guide.git
+
+
 (2) npm install cypress --save -dev
 
 (3) npm install
